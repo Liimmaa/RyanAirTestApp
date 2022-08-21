@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A48918928ADAAB600DB9EC7 /* FlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48918828ADAAB600DB9EC7 /* FlightsView.swift */; };
+		7A48918C28ADD0AC00DB9EC7 /* FlightDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48918B28ADD0AC00DB9EC7 /* FlightDetailCell.swift */; };
+		7A48918E28ADD0C600DB9EC7 /* DoubleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48918D28ADD0C600DB9EC7 /* DoubleLineView.swift */; };
+		7A61B42A28AFF7D10039F485 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B42928AFF7D10039F485 /* Flight.swift */; };
+		7A61B42D28AFF8040039F485 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B42C28AFF8040039F485 /* Date + Extension.swift */; };
+		7A61B42F28AFF8220039F485 /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B42E28AFF8220039F485 /* Double + Extension.swift */; };
+		7A61B43128B0063D0039F485 /* MessagePrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B43028B0063D0039F485 /* MessagePrompt.swift */; };
+		7A61B43328B034090039F485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B43228B034090039F485 /* Constants.swift */; };
+		7A61B43528B125F80039F485 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61B43428B125F80039F485 /* FlightsViewModel.swift */; };
 		7ACFEC6D28ABEA4D00980D84 /* RyanAirAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC6C28ABEA4D00980D84 /* RyanAirAppApp.swift */; };
-		7ACFEC6F28ABEA4D00980D84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC6E28ABEA4D00980D84 /* ContentView.swift */; };
+		7ACFEC6F28ABEA4D00980D84 /* SearchFlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC6E28ABEA4D00980D84 /* SearchFlightsView.swift */; };
 		7ACFEC7128ABEA4F00980D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACFEC7028ABEA4F00980D84 /* Assets.xcassets */; };
 		7ACFEC7428ABEA4F00980D84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACFEC7328ABEA4F00980D84 /* Preview Assets.xcassets */; };
 		7ACFEC7E28ABEA5000980D84 /* RyanAirAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC7D28ABEA5000980D84 /* RyanAirAppTests.swift */; };
 		7ACFEC8828ABEA5000980D84 /* RyanAirAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC8728ABEA5000980D84 /* RyanAirAppUITests.swift */; };
 		7ACFEC8A28ABEA5000980D84 /* RyanAirAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFEC8928ABEA5000980D84 /* RyanAirAppUITestsLaunchTests.swift */; };
+		7AE1311728AD319600F5B6CF /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1311628AD319600F5B6CF /* Endpoint.swift */; };
+		7AE1311928AD339000F5B6CF /* RyanAirEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1311828AD339000F5B6CF /* RyanAirEndpoint.swift */; };
+		7AE1311B28AD419700F5B6CF /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1311A28AD419600F5B6CF /* NetworkEngine.swift */; };
+		7AE1311E28AD62A100F5B6CF /* SearchFlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1311D28AD62A100F5B6CF /* SearchFlightsViewModel.swift */; };
+		7AE1312128AD8A9C00F5B6CF /* StationsSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1312028AD8A9C00F5B6CF /* StationsSearchBar.swift */; };
+		7AEB942B28AC159D00651FA5 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB942A28AC159D00651FA5 /* Station.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A48918828ADAAB600DB9EC7 /* FlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsView.swift; sourceTree = "<group>"; };
+		7A48918B28ADD0AC00DB9EC7 /* FlightDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailCell.swift; sourceTree = "<group>"; };
+		7A48918D28ADD0C600DB9EC7 /* DoubleLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLineView.swift; sourceTree = "<group>"; };
+		7A61B42928AFF7D10039F485 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		7A61B42C28AFF8040039F485 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		7A61B42E28AFF8220039F485 /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
+		7A61B43028B0063D0039F485 /* MessagePrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePrompt.swift; sourceTree = "<group>"; };
+		7A61B43228B034090039F485 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A61B43428B125F80039F485 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
 		7ACFEC6928ABEA4D00980D84 /* RyanAirApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyanAirApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACFEC6C28ABEA4D00980D84 /* RyanAirAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyanAirAppApp.swift; sourceTree = "<group>"; };
-		7ACFEC6E28ABEA4D00980D84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ACFEC6E28ABEA4D00980D84 /* SearchFlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightsView.swift; sourceTree = "<group>"; };
 		7ACFEC7028ABEA4F00980D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACFEC7328ABEA4F00980D84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7ACFEC7928ABEA5000980D84 /* RyanAirAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyanAirAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +68,12 @@
 		7ACFEC8328ABEA5000980D84 /* RyanAirAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyanAirAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACFEC8728ABEA5000980D84 /* RyanAirAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyanAirAppUITests.swift; sourceTree = "<group>"; };
 		7ACFEC8928ABEA5000980D84 /* RyanAirAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyanAirAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AE1311628AD319600F5B6CF /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7AE1311828AD339000F5B6CF /* RyanAirEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyanAirEndpoint.swift; sourceTree = "<group>"; };
+		7AE1311A28AD419600F5B6CF /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		7AE1311D28AD62A100F5B6CF /* SearchFlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightsViewModel.swift; sourceTree = "<group>"; };
+		7AE1312028AD8A9C00F5B6CF /* StationsSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsSearchBar.swift; sourceTree = "<group>"; };
+		7AEB942A28AC159D00651FA5 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A48918A28ADD09800DB9EC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ACFEC6C28ABEA4D00980D84 /* RyanAirAppApp.swift */,
+				7ACFEC6E28ABEA4D00980D84 /* SearchFlightsView.swift */,
+				7A48918828ADAAB600DB9EC7 /* FlightsView.swift */,
+				7A48918B28ADD0AC00DB9EC7 /* FlightDetailCell.swift */,
+				7A48918D28ADD0C600DB9EC7 /* DoubleLineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A61B42B28AFF7EE0039F485 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A61B42C28AFF8040039F485 /* Date + Extension.swift */,
+				7A61B42E28AFF8220039F485 /* Double + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7ACFEC6028ABEA4D00980D84 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +145,12 @@
 		7ACFEC6B28ABEA4D00980D84 /* RyanAirApp */ = {
 			isa = PBXGroup;
 			children = (
-				7ACFEC6C28ABEA4D00980D84 /* RyanAirAppApp.swift */,
-				7ACFEC6E28ABEA4D00980D84 /* ContentView.swift */,
+				7A48918A28ADD09800DB9EC7 /* View */,
+				7AEB942E28AC5AAE00651FA5 /* NetworkLayer */,
+				7AEB942928AC13C800651FA5 /* Models */,
+				7AE1311C28AD4ACD00F5B6CF /* ViewModel */,
+				7AE1311F28AD8A7100F5B6CF /* Utility */,
+				7A61B42B28AFF7EE0039F485 /* Extensions */,
 				7ACFEC7028ABEA4F00980D84 /* Assets.xcassets */,
 				7ACFEC7228ABEA4F00980D84 /* Preview Content */,
 			);
@@ -125,6 +180,44 @@
 				7ACFEC8928ABEA5000980D84 /* RyanAirAppUITestsLaunchTests.swift */,
 			);
 			path = RyanAirAppUITests;
+			sourceTree = "<group>";
+		};
+		7AE1311C28AD4ACD00F5B6CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1311D28AD62A100F5B6CF /* SearchFlightsViewModel.swift */,
+				7A61B43428B125F80039F485 /* FlightsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AE1311F28AD8A7100F5B6CF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1312028AD8A9C00F5B6CF /* StationsSearchBar.swift */,
+				7A61B43228B034090039F485 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7AEB942928AC13C800651FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AEB942A28AC159D00651FA5 /* Station.swift */,
+				7A61B42928AFF7D10039F485 /* Flight.swift */,
+				7A61B43028B0063D0039F485 /* MessagePrompt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AEB942E28AC5AAE00651FA5 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1311628AD319600F5B6CF /* Endpoint.swift */,
+				7AE1311828AD339000F5B6CF /* RyanAirEndpoint.swift */,
+				7AE1311A28AD419600F5B6CF /* NetworkEngine.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACFEC6F28ABEA4D00980D84 /* ContentView.swift in Sources */,
+				7ACFEC6F28ABEA4D00980D84 /* SearchFlightsView.swift in Sources */,
+				7A61B42D28AFF8040039F485 /* Date + Extension.swift in Sources */,
+				7A48918C28ADD0AC00DB9EC7 /* FlightDetailCell.swift in Sources */,
+				7AE1311928AD339000F5B6CF /* RyanAirEndpoint.swift in Sources */,
+				7AE1311B28AD419700F5B6CF /* NetworkEngine.swift in Sources */,
+				7AE1311E28AD62A100F5B6CF /* SearchFlightsViewModel.swift in Sources */,
+				7A61B43528B125F80039F485 /* FlightsViewModel.swift in Sources */,
+				7A48918E28ADD0C600DB9EC7 /* DoubleLineView.swift in Sources */,
+				7A61B43328B034090039F485 /* Constants.swift in Sources */,
+				7A48918928ADAAB600DB9EC7 /* FlightsView.swift in Sources */,
+				7A61B43128B0063D0039F485 /* MessagePrompt.swift in Sources */,
+				7A61B42F28AFF8220039F485 /* Double + Extension.swift in Sources */,
 				7ACFEC6D28ABEA4D00980D84 /* RyanAirAppApp.swift in Sources */,
+				7AEB942B28AC159D00651FA5 /* Station.swift in Sources */,
+				7A61B42A28AFF7D10039F485 /* Flight.swift in Sources */,
+				7AE1311728AD319600F5B6CF /* Endpoint.swift in Sources */,
+				7AE1312128AD8A9C00F5B6CF /* StationsSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
